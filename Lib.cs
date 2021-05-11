@@ -28,6 +28,18 @@ namespace Behavioural.Memento
 
     public class DocumentMemento
     {
+        //  Modern C#
+        //public string Title { get; }
+        //public string Body { get; }
+
+        //public DocumentMemento(string title, string body)
+        //{
+        //    Title = title;
+        //    Body = body;
+        //}
+
+        //  Traditional approach
+
         private readonly string _title;
         private readonly string _body;
 
